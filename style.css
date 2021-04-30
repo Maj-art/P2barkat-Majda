@@ -937,6 +937,8 @@ div.aside
     height: 600px;
     margin-left: 5%;
     border-radius: 0%;
+    padding-left: 10px;
+    padding-bottom: 15px;
     
     
 }
@@ -1157,10 +1159,9 @@ div.sixthimg
 nav.navheader
 {
     display:flex;
+    margin-left: 0px;
     flex-direction:row;
     flex-wrap: wrap;
-    justify-content:start;
-    margin-left: 0px;
     
           
 }
@@ -1168,8 +1169,10 @@ header.header
 {
     
     margin-left: 5%;
-    
-       
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:start;
+          
     
 }
 
@@ -1179,9 +1182,7 @@ header.header img
     width: 60px;
     height:60px;
     margin-top: 25px;
-    
-    
-    
+       
     
 }
 
@@ -1191,8 +1192,9 @@ a.third
     font-size: larger;
     font-weight: 900;
     order:1;
-    width: 50%; 
-    margin-left:150px;
+    width:70%;
+    margin-left: 120px;
+    
     
 }
 nav.navheader
@@ -1204,7 +1206,11 @@ a.active
     font-size: medium;
     border-bottom: #0065FC solid 2px;  
     order:2; 
-    margin-left: 0%; 
+    margin-left: -80px;
+    font-size:large;
+    
+    
+    
       
 }
 nav.navheader
@@ -1214,9 +1220,6 @@ a.second
     
     width: 50%;
     font-size: medium;
-    text-align: left;
-    padding-left: 0px;
-    margin-left: 0px;
     border-bottom: whitesmoke solid 3px;
     order:3;
     
