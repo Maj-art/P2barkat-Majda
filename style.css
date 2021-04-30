@@ -889,7 +889,10 @@ div.container
 h4
 {
     margin-left: 0%;
+    font-size: medium;
+    font-weight: 900;
 }
+
 div.footer2
 {
     margin-left: 40px;
@@ -984,13 +987,15 @@ p.second
     margin-top: 150px;
     padding-left: 5%;
     font-size: 15px; 
-    letter-spacing: 0.5px;
+    font-weight: 500;
+    
     
 }
 
 p.second
 i{
     margin-right: 20px;
+    size: 5px;
 }
 section.filtres
 {
@@ -1278,6 +1283,7 @@ input
     
     border-right: none;
     margin-right: 0%;
+    font-weight: 600;
     
     
 }
