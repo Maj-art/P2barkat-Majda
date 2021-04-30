@@ -71,7 +71,7 @@ a.active
     color: #0065FC ;
     border-top: #0065FC solid 2px;
     line-height: 40px;
-    margin-top: 0px;
+    
        
 }
 
@@ -957,7 +957,7 @@ height:150px;
 div.aside
 h3.populaires
 {
-    margin-left: 15px;
+    margin-left: 3px;
     margin-top: 0%;
     font-size: large;
 }
@@ -1189,11 +1189,11 @@ header.header img
 nav.navheader
 a.third
 {
-    font-size: larger;
-    font-weight: 900;
+    font-size: large;
+    font-weight: bold;
     order:1;
     width:70%;
-    margin-left: 120px;
+    margin-left: 150px;
     
     
 }
@@ -1203,26 +1203,28 @@ a.active
     
     border-top: none;
     width:50%;
-    font-size: medium;
+    font-size: large;
     border-bottom: #0065FC solid 2px;  
     order:2; 
-    margin-left: -80px;
-    font-size:large;
-    
-    
-    
-      
+    margin-left:-80px; 
+    padding-right: 210px;
+    font-size: large; 
+    font-weight: 700;
+       
 }
 nav.navheader
 a.second
 
 {
     
-    width: 50%;
-    font-size: medium;
+    width:70%;
+    font-size:medium;
+    font-weight: 700;
     border-bottom: whitesmoke solid 3px;
     order:3;
+    margin-left: -200px; 
     
+     
        
 }
 
@@ -1277,6 +1279,7 @@ span
     border-radius: 30%;
     width:20px;
     text-align: center;
+    margin-left: -15px; 
     
     
 }
