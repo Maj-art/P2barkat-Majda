@@ -982,7 +982,15 @@ p.second
 
 {
     margin-top: 150px;
-    margin-left: 10%;
+    padding-left: 5%;
+    font-size: 15px; 
+    letter-spacing: 0.5px;
+    
+}
+
+p.second
+i{
+    margin-right: 20px;
 }
 section.filtres
 {
