@@ -1192,8 +1192,8 @@ a.third
     font-size: large;
     font-weight: bold;
     order:1;
-    width:70%;
-    margin-left: 150px;
+    width:50%;
+    margin-left: 145px;
     
     
 }
@@ -1243,8 +1243,9 @@ p
  {
     width: 100%;
     text-align: start;
-    margin-left: 2%;
-    font-size: medium;
+    margin-left: 7%;
+    font-size: large;
+    font-weight: 900;
     
     
     
