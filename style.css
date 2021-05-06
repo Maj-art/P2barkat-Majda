@@ -4,16 +4,17 @@
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     width:100%;
+    padding:0;
+    margin:0;
     
     
-
     
  }
  .wrapper 
  {
-     width:100%;
+     width:1024px;
      margin:auto;
-     text-align: center;
+        
      
  }  
  a {
@@ -31,67 +32,88 @@
 header.header{
     display: flex;
     justify-content: flex-start;
-    margin-top: 20px;
     list-style: none;
-    margin-left: 15%;
+    
+}
+
+header.header.logo
+
+{
+flex:1;
 }
 
 header.header img{
-    width: 70px;
-    font-weight: 200;
-}
-
-nav.navheader{
-    display: flex; 
-    justify-content: space-between;
-    text-decoration: none;
-    margin-left: 500px;
+    width: 100px;
+    padding-left: 12%;
 
 }
 
+nav.navheader 
 
-nav.navheader
-a
 {
-    display: flex;
-    margin-left: 20px;
+    display: flex; 
+    flex-direction: row;
     justify-content: space-between;
     text-decoration: none;
-    margin-top: 15px;
+    margin-left: 400px;
     
+
 }
-a.second
+
+
+nav.navheader a.second
+
 {
     color:black;
-    line-height:40px;
+    line-height:50px;
+    text-decoration: none;
+    padding-left: 50px;
+      
     
 }
-a.active
+nav.navheader
+ a.second:hover
 {
-    color: #0065FC ;
-    border-top: #0065FC solid 2px;
-    line-height: 40px;
+  border-top:#0065FC solid 2px;
+}
+
+
+
+
+nav.navheader a.active
+
+
+{
+    color: #0065FC;  
+    line-height: 50px;
+    
     
        
+}
+nav.navheader 
+a.active:hover
+{
+   border-top: #0065FC solid 2px;
 }
 
 a.third
 {
     color: #0065FC;
-    line-height:40px;
+    line-height:50px;
+    padding-left: 70px;
     
 }
 .big-title{
     color: black;
     font-size: 20px;
-    margin-left: 15%;
+    padding-left: 12%;
 }
 h3.small-title{
     color: black;
     font-size: 15px;
     font-weight: lighter;
     line-height: 0px;
-    margin-left: 15%;
+    padding-left: 12%;
 }
  
 section.search
@@ -143,7 +165,7 @@ span
 }
 section.search
 {
-    margin-left: 15%;
+    padding-left: 12%;
 }
 
 
@@ -200,14 +222,14 @@ section.filtres
 p
 {
     margin-top: 10px;
-    margin-left: 15%;
+    margin-left: 12%;
 }
 
 p.second
 {
     font-weight: 100;
     font-size: 12px;
-    margin-left: 15%;
+    margin-left: 12%;
 }
 
 
@@ -235,14 +257,18 @@ p.grandtitre
 div.hebergement img
 
 {
-width:150px;
-height:80px;
-border-top-left-radius: 20px;
-border-top-right-radius: 20px;
-margin-left: 4px;
-margin-top: 4px;
-margin-right: 4px;
+    width:96%;
+    object-fit: cover;
+    height:90px;
+    padding-right:2%;
+    padding-left: 2%;
+    padding-top: 2%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+
 }
+
 
 div.hebergement-images
 {
@@ -301,13 +327,11 @@ p
 div.firstimg
 {
     background-color: white;
-    width:160px;
-    height: 140px;
-    margin-bottom: 10px;
-    border-top-left-radius:20px;
-    border-top-right-radius:20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    width:30%;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius:20px;
     box-shadow: 0px 3px 5px 1px #ccc; 
     
 
@@ -335,13 +359,11 @@ p
 div.secondimg
 {
     background-color:white;
-    width:160px;
-    height: 140px;
+    width:30%;
+    height: 150px;
     margin-bottom: 10px;
-    border-top-left-radius:20px;
-    border-top-right-radius:20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    margin-top: 10px;
+    border-radius:20px;
     box-shadow: 0px 3px 5px 1px #ccc; 
     
     
@@ -370,13 +392,11 @@ p
 div.thirdimg
 {
     background-color: white;
-    width:160px;
-    height: 140px;
+    width:30%;
+    height: 150px;
+    margin-top: 10px;
     margin-bottom: 10px;
-    border-top-left-radius:20px;
-    border-top-right-radius:20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-radius:20px;
     box-shadow: 0px 3px 5px 1px #ccc; 
     
 
@@ -402,13 +422,10 @@ p
 div.forthimg
 {
  background-color:white;
- width:160px;
- height: 140px;
+ width:30%;
+ height: 150px;
  margin-bottom: 20px;
- border-bottom-left-radius: 20px;
- border-bottom-right-radius: 20px;
- border-top-left-radius: 20px;
- border-top-right-radius: 20px;
+ border-radius: 20px;
  box-shadow: 0px 3px 5px 1px #ccc; 
  
 
@@ -418,12 +435,10 @@ div.forthimg
 div.fifthimg
 {
     background-color: white;
-    width:160px;
-    height:140px;
+    width:30%;
+    height:150px;
     border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-radius: 20px;
     box-shadow: 0px 3px 5px 1px #ccc; 
     
 }
@@ -450,12 +465,9 @@ i{
 div.sixthimg
 {
     background-color: white;
-    width:160px;
-    height:140px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    width:30%;
+    height:150px;
+    border-radius: 20px;
     box-shadow: 0px 3px 5px 1px #ccc; 
 
 }
@@ -486,13 +498,13 @@ div.hebergement
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
-    width:550px;
-    height: 450px;
+    justify-content: space-between;
+    width:600px;
+    height: 500px;
     padding-left: 20px;
     padding-right:20px;
     border-radius: 20px;
-    margin-left: 15%;
+    margin-left: 12%;
     
       
 }
@@ -592,7 +604,7 @@ div.aside
 {
     background-color: #F2F2F2;
     width: 270px;
-    height: 450px;
+    height: 500px;
     margin-left: 30px;
     padding-right: 15px;
     padding-left: 15px;
@@ -618,7 +630,7 @@ p
 
 h3.activities
 {
-    margin-left: 15%;
+    margin-left: 12%;
 }
 
 div.firstactivity img
@@ -810,7 +822,8 @@ div.activités
     display: flex;
     flex-direction: row;
     justify-content:flex-start;
-    margin-left: 15%;
+    padding-left: 12%;
+    
     
 }
 
@@ -825,7 +838,6 @@ a
 
 div.footer1{
     list-style: none;
-    margin-left: 15%;
     line-height: 20px;
 }
 
@@ -856,17 +868,21 @@ div.footer3{
     line-height: 20px;
 }
 
+
 div.container
 {
+    width: 1024px;
+    margin: auto;
     display:flex;
     flex-direction: row;
     justify-content: start;
-    background-color: #F2F2F2;
     border-top:black;
     margin-top: 50px;
-    width:100%;
     
       
+}
+footer{
+    background-color: whitesmoke;
 }
 
 @media all and (max-width: 1024px)
@@ -1191,9 +1207,7 @@ a.third
 {
     font-size: large;
     font-weight: bold;
-    order:1;
-    width:50%;
-    margin-left: 145px;
+    
     
     
 }
@@ -1202,15 +1216,13 @@ a.active
 {
     
     border-top: none;
-    width:50%;
-    font-size: large;
     border-bottom: #0065FC solid 2px;  
     order:2; 
-    margin-left:-80px; 
-    padding-right: 210px;
-    font-size: large; 
-    font-weight: 700;
-       
+    padding-top:80px;
+    
+     
+    
+           
 }
 nav.navheader
 a.second
@@ -1222,7 +1234,8 @@ a.second
     font-weight: 700;
     border-bottom: whitesmoke solid 3px;
     order:3;
-    margin-left: -200px; 
+    padding-left: -100px;
+    
     
      
        
