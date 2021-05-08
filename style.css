@@ -329,7 +329,7 @@ div.firstimg
     background-color: white;
     width:30%;
     height: 150px;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 20px;
     border-radius:20px;
     box-shadow: 0px 3px 5px 1px #ccc; 
@@ -362,7 +362,7 @@ div.secondimg
     width:30%;
     height: 150px;
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
     border-radius:20px;
     box-shadow: 0px 3px 5px 1px #ccc; 
     
@@ -394,7 +394,7 @@ div.thirdimg
     background-color: white;
     width:30%;
     height: 150px;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 10px;
     border-radius:20px;
     box-shadow: 0px 3px 5px 1px #ccc; 
@@ -520,8 +520,9 @@ div.main
 
 div.aside img
 {
-    width:90px;
-    height:100px;
+    width:95px;
+    height:92%;
+    object-fit: cover;
     background-color:white;
     margin-top: 4px;
     margin-left: 4px;
@@ -546,6 +547,11 @@ div.aside
 i
 {
     margin-top: 30px;
+}
+
+h3.populaires
+{
+    margin-bottom: 2px;
 }
 
 
@@ -583,6 +589,7 @@ div.eighth
     margin-left: 5px;
     border-radius: 20px;
     margin-bottom: 10px;
+    margin-top: 5px;
     box-shadow: 0px 3px 5px 1px #ccc; 
 }
 
@@ -595,7 +602,7 @@ div.neinth
     height:110px;
     margin-left: 5px;
     border-radius: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     box-shadow: 0px 3px 5px 1px #ccc; 
 }
 
@@ -630,13 +637,15 @@ p
 
 h3.activities
 {
-    margin-left: 12%;
+    padding-left: 12%;
 }
 
 div.firstactivity img
 {
-    height: 250px;
-    width: 200px;
+    height: 88%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }  
@@ -645,9 +654,9 @@ div.firstactivity
 {
     background-color: white;
     width: 200px;
-    height: 280px;
+    height: 290px;
     border-radius: 20px;
-    margin-right: 20px;
+    margin-right: 40px;
     box-shadow: 0px 3px 5px 1px #ccc; 
     
 }
@@ -656,14 +665,16 @@ div.firstactivity
 p
 {
     font-size: 10px;
-    margin-top: 3px;
-    margin-left: 5px;
+    padding-left: 20px;
+    
 }
 
 div.secondactivity img
 {
-    width: 180px;
-    height:120px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    height:75%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     
@@ -673,27 +684,29 @@ p
 
 {
     font-size: 10px;
-    margin-top: 3px;
-    margin-left: 5px;
+    padding-top: 3px;
+    padding-left: 15px;
     
 }
 
 div.secondactivity
 {
     background-color: white;
-    width:180px;
-    height: 160px;
+    width: 200px;;
+    height: 150px;
     border-radius: 20px;
     margin-bottom: 25px;
     box-shadow: 0px 3px 5px 1px #ccc; 
+    
     
 
 }
 
 div.thirdactivity img
 {
-    width:180px;
-    height:60px;
+    width:100%;
+    object-fit: cover;
+    height:65%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 
@@ -704,15 +717,16 @@ p
 
 {
     font-size: 10px;
-    margin-top: 3px;
-    margin-left: 5px;
+    padding-left: 15px;
+    
     
 }
 div.thirdactivity
 {
     background-color: white;
-    width:180px;
-    height: 90px;
+    width:200px;
+    height: 100px;
+    margin-top: 40px;
     border-radius: 20px;
     box-shadow: 0px 3px 5px 1px #ccc; 
     
@@ -721,8 +735,9 @@ div.thirdactivity
 
 div.forthactivity img
 {
-    height: 250px;
-    width: 200px;
+    height: 88%;
+    width: 100%;
+    object-fit: cover;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;  
 }
@@ -731,18 +746,19 @@ p
 {
     font-size: 10px;
     margin-top: 3px;
-    margin-left: 5px;
+    padding-left: 10px;
 
 }
 
 div.forthactivity
 {
-    background-color: white
+    background-color: white;
     width: 200px;
     height: 280px;
     border-radius: 20px;
     box-shadow: 0px 3px 5px 1px #ccc; 
-    margin-right: 20px;
+    margin-right:40px;
+    margin-left:40px;
 }
 
 div.fifthactivity img
