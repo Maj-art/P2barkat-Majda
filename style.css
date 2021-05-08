@@ -970,7 +970,6 @@ div.aside
     margin-left: 5%;
     border-radius: 0%;
     padding-left: 10px;
-    padding-bottom: 15px;
     
     
 }
@@ -1082,10 +1081,12 @@ div.hebergement
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    margin-top: 300px;
     margin-bottom: 20px;   
     background-color: white;
     margin-left: 2%;
+    padding-bottom: 320px;
+    
+    
     
     
 }
@@ -1327,9 +1328,22 @@ input
     
 }
 
+div.activités
+
+{
+  padding-left: 1%;
+}
+h3.activities
+{
+    PADDING-left: 2%;
+    font-weight: 800;
+}
+
 div.activités img
 {
-    width:330px;
+    width:100%;
+    object-fit: cover;
+    overflow: hidden;
     height:130px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -1363,6 +1377,7 @@ div.forthactivity
     width: 330px;
     height:180px;
     margin-top: 15px;
+    margin-left: 2%;
 }
 div.fifthactivity
 {
