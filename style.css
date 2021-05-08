@@ -1102,8 +1102,8 @@ div.hebergement-images
 {
     flex-direction: column;
     border-radius: 20px;
-    margin-top: 20px;
-    padding-left: 0;
+    padding-top: 2%;
+    
           
 }
 
@@ -1126,12 +1126,15 @@ h4
 div.hebergement img
 
 {
-width:320px;
+width:98%;
 height:100px;
+object-fit: cover;
+padding-top: 1%;
+padding-left: 1%;
+padding-right: 1%;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
-margin-left: 4px;
-margin-top: 4px;
+
 
 }
 
