@@ -3,21 +3,25 @@
  {
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
-    width:100%;
-    padding:0;
     margin:0;
+    padding:0;
     
-    
+   
+           
+ }
+
+ .wrapper
+ {
+    margin:auto;
+    width: 1024px;
     
  }
- .wrapper 
+
+ 
+ .wrapper
+
+ a 
  {
-     width:1024px;
-     margin:auto;
-        
-     
- }  
- a {
      text-decoration: none;
  } 
 
@@ -27,35 +31,14 @@
      
      
  } 
+
+ 
+ 
     
 
-header.header{
-    display: flex;
-    justify-content: flex-start;
-    list-style: none;
-    
-}
-
-header.header.logo
-
+header.header img
 {
-flex:1;
-}
-
-header.header img{
     width: 100px;
-    padding-left: 12%;
-
-}
-
-nav.navheader 
-
-{
-    display: flex; 
-    flex-direction: row;
-    justify-content: space-between;
-    text-decoration: none;
-    margin-left: 400px;
     
 
 }
@@ -67,14 +50,16 @@ nav.navheader a.second
     color:black;
     line-height:50px;
     text-decoration: none;
-    padding-left: 50px;
-      
+
     
+       
 }
 nav.navheader
  a.second:hover
 {
   border-top:#0065FC solid 2px;
+  padding: 3em 1.5em;
+  
 }
 
 
@@ -86,34 +71,64 @@ nav.navheader a.active
 {
     color: #0065FC;  
     line-height: 50px;
-    
+    text-decoration: none;  
+    margin-right: 40px;
     
        
 }
+
+header.header
+{
+    display:flex;
+    align-items: center;
+    
+    
+}
+nav.navheader
+ul
+{
+    display:flex;
+    list-style-type: none;
+    
+    
+    
+}
+
 nav.navheader 
 a.active:hover
 {
    border-top: #0065FC solid 2px;
+   padding: 3em 1.5em;
 }
 
 a.third
 {
-    color: #0065FC;
-    line-height:50px;
-    padding-left: 70px;
-    
+font-weight: bold;
+display: block;
+font-size: 1em;
+padding: 3em 1.5em;
+border-top: 2px #fff solid;
+color: #0065FC;
+line-height: 50px;
+text-decoration: none;
+margin-left: 40px;
 }
-.big-title{
+
+div.titres
+.big-title
+{
     color: black;
     font-size: 20px;
-    padding-left: 12%;
+    
+    
 }
+div.titres
 h3.small-title{
     color: black;
     font-size: 15px;
     font-weight: lighter;
     line-height: 0px;
-    padding-left: 12%;
+    
 }
  
 section.search
@@ -163,10 +178,7 @@ span
     color:white;
     
 }
-section.search
-{
-    padding-left: 12%;
-}
+
 
 
 section.filtres
@@ -222,14 +234,14 @@ section.filtres
 p
 {
     margin-top: 10px;
-    margin-left: 12%;
+    
 }
 
 p.second
 {
     font-weight: 100;
     font-size: 12px;
-    margin-left: 12%;
+    
 }
 
 
@@ -504,7 +516,8 @@ div.hebergement
     padding-left: 20px;
     padding-right:20px;
     border-radius: 20px;
-    margin-left: 12%;
+    margin-right: 30px;
+    
     
       
 }
@@ -609,14 +622,9 @@ div.neinth
 
 div.aside
 {
-    background-color: #F2F2F2;
-    width: 270px;
+    
+    width: auto;
     height: 500px;
-    margin-left: 30px;
-    padding-right: 15px;
-    padding-left: 15px;
-    display:flex;
-    flex-direction: column;
     justify-content: space-between;
     border-radius: 20px;
     
@@ -624,7 +632,7 @@ div.aside
 
 div.aside h5
 {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 10px;
 }
 
@@ -635,10 +643,29 @@ p
     
 }
 
-h3.activities
+div.containeractivities
 {
-    padding-left: 12%;
+    width: 1024px;
+    margin: auto;
 }
+div.main
+{
+    width:1024px;
+    margin:auto;
+}
+div.firstpartcontainer
+{
+    width: 1024px;
+    margin:auto;
+}
+
+header.header
+{
+    width: 1024px;
+    margin:auto;
+}
+
+
 
 div.firstactivity img
 {
@@ -653,21 +680,15 @@ div.firstactivity img
 div.firstactivity
 {
     background-color: white;
-    width: 200px;
-    height: 290px;
+    width: 220px;
+    height: 320px;
     border-radius: 20px;
     margin-right: 40px;
     box-shadow: 0px 3px 5px 1px #ccc; 
     
 }
 
-div.firstactivity
-p
-{
-    font-size: 10px;
-    padding-left: 20px;
-    
-}
+
 
 div.secondactivity img
 {
@@ -679,15 +700,7 @@ div.secondactivity img
     border-top-right-radius: 20px;
     
 }
-div.secondactivity
-p
 
-{
-    font-size: 10px;
-    padding-top: 3px;
-    padding-left: 15px;
-    
-}
 
 div.secondactivity
 {
@@ -712,20 +725,17 @@ div.thirdactivity img
 
 }
 
-div.thirdactivity
-p
-
+div.images
 {
-    font-size: 10px;
-    padding-left: 15px;
-    
-    
+    padding-right: 40px;
 }
+
+
 div.thirdactivity
 {
     background-color: white;
     width:200px;
-    height: 100px;
+    height: 130px;
     margin-top: 40px;
     border-radius: 20px;
     box-shadow: 0px 3px 5px 1px #ccc; 
@@ -741,24 +751,17 @@ div.forthactivity img
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;  
 }
-div.forthactivity
-p
-{
-    font-size: 10px;
-    margin-top: 3px;
-    padding-left: 10px;
 
-}
 
 div.forthactivity
 {
     background-color: white;
-    width: 200px;
-    height: 280px;
+    width: 220px;
+    height: 320px;
     border-radius: 20px;
     box-shadow: 0px 3px 5px 1px #ccc; 
     margin-right:40px;
-    margin-left:40px;
+    
 }
 
 div.fifthactivity img
@@ -769,21 +772,13 @@ div.fifthactivity img
     border-top-right-radius: 20px; 
 }
 
-div.fifthactivity
-p
 
-{
-    font-size: 10px;
-    margin-top: 3px;
-    margin-left: 5px;
-    
-}
 
 div.fifthactivity
 {
     background-color: white;
     width:220px;
-    height: 130px;
+    height: 150px;
     border-radius: 20px;
     margin-bottom: 35px;
     box-shadow: 0px 3px 5px 1px #ccc; 
@@ -798,24 +793,26 @@ div.sixthactivity img
     border-top-right-radius: 20px; 
 }
 
-div.sixthactivity
-p
 
-{
-    font-size: 10px;
-    margin-top: 3px;
-    margin-left: 5px;
-    
-}
 
 div.sixthactivity
 {
     background-color: white;
     width:220px;
-    height: 120px;
+    height: 130px;
     border-radius: 20px;
     box-shadow: 0px 3px 5px 1px #ccc; 
     margin-top: 3px;
+}
+
+div.activités
+p
+{
+font-weight: bold;
+font-size: 12px;
+padding-left: 15px;
+
+
 }
 
 div.images
@@ -838,7 +835,7 @@ div.activités
     display: flex;
     flex-direction: row;
     justify-content:flex-start;
-    padding-left: 12%;
+    
     
     
 }
@@ -906,8 +903,9 @@ footer{
 
 body
 {
-width:auto;
-margin: auto;
+width: auto;
+margin:auto;
+
 
 }
 
@@ -920,7 +918,7 @@ div.container{
 div.container
 h4
 {
-    margin-left: 0%;
+    
     font-size: medium;
     font-weight: 900;
 }
@@ -944,13 +942,12 @@ div.activités
 {
     flex-direction: column;
     margin-top: 20px;
-    margin-left: 10%;
+    
 
 }
 h3.activities
 {
     margin-top: 380px;
-    margin-left: 10%;
     font-weight: 900;
 
     
@@ -964,12 +961,11 @@ flex-direction:column-reverse;
 
 div.aside
 {
-    margin-bottom: 20px;
-    width: 360px;
+    
     height: 600px;
-    margin-left: 5%;
+    width: 100%;
     border-radius: 0%;
-    padding-left: 10px;
+    
     
     
 }
@@ -988,8 +984,8 @@ height:150px;
 div.aside
 h3.populaires
 {
-    margin-left: 3px;
-    margin-top: 0%;
+    
+    
     font-size: large;
 }
 
@@ -1013,12 +1009,32 @@ div.neinth
     height: 160px;
 }
 
+header.header
+a.third
+{
+order:1;
+margin-left: 150px;
+}
+
+nav.navheader
+{
+    order: 2;
+    width:100%;
+}
+
+
+nav.navheader ul
+{
+flex-grow: 1;
+align-items: center;
+
+}
+
 
 p.second
 
 {
     margin-top: 150px;
-    padding-left: 5%;
     font-size: 15px; 
     font-weight: 500;
     
@@ -1030,10 +1046,7 @@ i{
     margin-right: 20px;
     size: 5px;
 }
-section.filtres
-{
-    width:70%;
-}
+
 section.filtres
 a
 {
@@ -1047,27 +1060,32 @@ a
 }
 
 section.filtres
-
-
-a.animal
 {
+
     
-    margin-top: 10px; 
-    
-    
+    flex-direction: row;
+    flex-wrap: wrap;
     
     
     
 }
+
+section.filtres
 a.romantique
 {
-    margin-top: 10px;
-    
-    
-    
+    margin-bottom: 10px;
     
     
 }
+a.familial
+{
+
+    margin-bottom:10px;
+}
+
+
+
+
 
 section.filtres
 i
@@ -1083,8 +1101,8 @@ div.hebergement
     flex-direction: column;
     margin-bottom: 20px;   
     background-color: white;
-    margin-left: 2%;
     padding-bottom: 320px;
+    padding-top: 20px;
     
     
     
@@ -1095,7 +1113,7 @@ p.hebergement
 {
     margin-top: 80px;
     font-weight: bolder;
-    padding-left: 5%;
+    
     
 }
 
@@ -1111,15 +1129,11 @@ div.hebergement-images
 div.hebergement
 h3
 {
-    margin-left: 3%;
+    
     margin-top: 15%;
     
 }
-h4
-{
-    margin-left: 3%;
-    
-}
+
 
 
 
@@ -1144,7 +1158,7 @@ div.firstimg
     background-color: white;
     width: 330px;
     height:160px;
-    margin: 10px;
+    
     
 }
 
@@ -1153,7 +1167,7 @@ div.secondimg
     background-color: white;
     width: 330px;
     height:160px;
-    margin-left: 10px;
+    
 }
 
 div.thirdimg
@@ -1162,7 +1176,7 @@ div.thirdimg
     background-color: white;
     width: 330px;
     height:160px;
-    margin-left: 10px;
+    
 }
 
 div.forthimg
@@ -1170,7 +1184,8 @@ div.forthimg
     background-color: white;
     width: 330px;
     height:160px;
-    margin-left:10px;
+    
+    
 }
 
 div.fifthimg
@@ -1179,7 +1194,7 @@ div.fifthimg
     background-color: white;
     width: 330px;
     height:160px;
-    margin-left: 10px;
+    
 }
 
 div.sixthimg
@@ -1187,79 +1202,62 @@ div.sixthimg
     background-color: white;
     width: 330px;
     height:160px;
-    margin-left: 10px;
     margin-top: 10px;
 }
 
 
-nav.navheader
-{
-    display:flex;
-    margin-left: 0px;
-    flex-direction:row;
-    flex-wrap: wrap;
-    
-          
-}
-header.header
-{
-    
-    margin-left: 5%;
-    flex-direction:row;
-    flex-wrap: wrap;
-    justify-content:start;
-          
-    
-}
+
+
 
 header.header img
 {
     
     width: 60px;
-    height:60px;
-    margin-top: 25px;
-       
+    height:60px;      
     
 }
 
-nav.navheader
-a.third
-{
-    font-size: large;
-    font-weight: bold;
-    
-    
-    
-}
-nav.navheader
+nav.navheader 
 a.active
 {
     
-    border-top: none;
-    border-bottom: #0065FC solid 2px;  
-    order:2; 
-    padding-top:80px;
-    
-     
-    
-           
+    border-bottom: #0065FC solid 4px; 
+    padding: 1.5em 2em;
+    width: 50%;
+                 
 }
+
 nav.navheader
+a.active:hover
+{
+    border-top: none;
+    
+        
+}
+nav.navheader 
 a.second
 
 {
-    
-    width:70%;
-    font-size:medium;
-    font-weight: 700;
-    border-bottom: whitesmoke solid 3px;
-    order:3;
-    padding-left: -100px;
-    
-    
-     
-       
+    border-bottom: whitesmoke solid 4px;
+    padding: 1.5em 2em;
+
+          
 }
+nav.navheader
+a.second:hover
+{
+    border-top: none;
+}
+
+header.header
+{
+
+flex-wrap: wrap;
+
+}
+
+
+
 
 
 section.filtres
@@ -1268,36 +1266,26 @@ section.filtres
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;  
-    margin-left: 2%;  
+    
+     
 }
 
 section.filtres
 p
  {
-    width: 100%;
+    
     text-align: start;
-    margin-left: 7%;
     font-size: large;
     font-weight: 900;
+    width:100%;
     
     
     
 }
 
-p.second
-{
-    margin-left: 2%;
-}
 
-div.aside
-{
-    PADDING-left: 5%;
-}
 
-section.search
-{
-    margin-left: 5%;
-}
+
 section.search
 a
 {
@@ -1330,12 +1318,10 @@ input
 
 div.activités
 
-{
-  padding-left: 1%;
-}
+
 h3.activities
 {
-    PADDING-left: 2%;
+    
     font-weight: 800;
 }
 
@@ -1377,7 +1363,7 @@ div.forthactivity
     width: 330px;
     height:180px;
     margin-top: 15px;
-    margin-left: 2%;
+    
 }
 div.fifthactivity
 {
@@ -1399,18 +1385,32 @@ div.titres
 .big-title
 
 {
-   font-weight:900; 
-   margin-left: 5%;
+   font-weight:bold;  
    
 }
-div.titres
-.small-title
+
+div.containeractivities
 {
-    margin-left: 5%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+div.main
+{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
 }
 
 
-
+div.firstpartcontainer
+{
+width:80%;
+margin-left: 10%;
+margin-right: 10%;
+}
 
 
 }
