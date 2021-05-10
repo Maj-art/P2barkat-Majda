@@ -622,11 +622,16 @@ div.neinth
 
 div.aside
 {
-    
-    width: auto;
-    height: 500px;
+    background-color: #F2F2F2;
+    width: 270px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display:flex;
+    flex-direction: column;
     justify-content: space-between;
     border-radius: 20px;
+    height: 500px;
+    
     
 }
 
@@ -1410,6 +1415,13 @@ div.firstpartcontainer
 width:80%;
 margin-left: 10%;
 margin-right: 10%;
+}
+
+header.header
+{
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 
