@@ -32,9 +32,12 @@
      
  } 
 
- 
- 
-    
+ header.header
+ {
+     display:flex;
+     align-items: center;
+     
+ } 
 
 header.header img
 {
@@ -43,76 +46,55 @@ header.header img
 
 }
 
+header.header .logo {
+    flex: 1;
+}
 
-nav.navheader a.second
 
+nav.navheader 
+a.nav-link
 {
     color:black;
-    line-height:50px;
     text-decoration: none;
+    padding: 3em 1.5em;
+    border-top: 2px #fff solid ;
 
-    
-       
-}
-nav.navheader
- a.second:hover
-{
-  border-top:#0065FC solid 2px;
-  padding: 3em 1.5em;
-  
 }
 
-
-
-
+nav.navheader a.nav-link:hover,
 nav.navheader a.active
-
-
 {
-    color: #0065FC;  
-    line-height: 50px;
-    text-decoration: none;  
-    margin-right: 40px;
-    
-       
+  border-top: 2px #0065FC solid;
+  color: #0065FC;
 }
 
-header.header
+
+
+a.register-link
 {
-    display:flex;
-    align-items: center;
-    
-    
+    font-weight: bold;
+    display: block;
+    font-size: 1em;
+    padding: 3em 1.5em;
+    border-top: 2px #fff solid;
+    color: #0065FC;
+    text-decoration: none;
 }
+
+
+
 nav.navheader
 ul
 {
     display:flex;
     list-style-type: none;
     
-    
-    
+      
 }
 
-nav.navheader 
-a.active:hover
-{
-   border-top: #0065FC solid 2px;
-   padding: 3em 1.5em;
-}
 
-a.third
-{
-font-weight: bold;
-display: block;
-font-size: 1em;
-padding: 3em 1.5em;
-border-top: 2px #fff solid;
-color: #0065FC;
-line-height: 50px;
-text-decoration: none;
-margin-left: 40px;
-}
+
+
 
 div.titres
 .big-title
@@ -294,9 +276,7 @@ div.hebergement-images
 div.hebergement 
 h3
 {
-    margin-top: 40px;
-    margin-right: auto;
-    margin-bottom: auto;
+    margin-top: 10px;
     font-weight:bolder;
     font-size: large;
       
@@ -670,180 +650,72 @@ header.header
     margin:auto;
 }
 
+div.activity-link {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 3px 5px 1px #ccc;
+    border-radius: 20px;
+}
 
+div.activity-link a {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
 
-div.firstactivity img
-{
-    height: 88%;
+div.activity-link img {
     width: 100%;
     object-fit: cover;
     overflow: hidden;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-}  
+}
 
-div.firstactivity
-{
-    background-color: white;
-    width: 220px;
-    height: 320px;
-    border-radius: 20px;
-    margin-right: 40px;
-    box-shadow: 0px 3px 5px 1px #ccc; 
-    
+div.activity-link p {
+    padding: 0.5em 1em;
+    font-weight: bold;
 }
 
 
+div.firstactivity { height: 320px; }
+div.secondactivity { height: 150px; }
+div.thirdactivity { height: 130px; }
+div.forthactivity { height: 320px; }
+div.fifthactivity { height: 150px; }
+div.sixthactivity { height: 130px; }
 
-div.secondactivity img
+div.activities-columns p
 {
-    width: 100%;
-    object-fit: cover;
-    overflow: hidden;
-    height:75%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 15px;
 }
 
-
-div.secondactivity
-{
-    background-color: white;
-    width: 200px;;
-    height: 150px;
-    border-radius: 20px;
-    margin-bottom: 25px;
-    box-shadow: 0px 3px 5px 1px #ccc; 
-    
-    
-
-}
-
-div.thirdactivity img
-{
-    width:100%;
-    object-fit: cover;
-    height:65%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-
-}
-
-div.images
-{
-    padding-right: 40px;
-}
-
-
-div.thirdactivity
-{
-    background-color: white;
-    width:200px;
-    height: 130px;
-    margin-top: 40px;
-    border-radius: 20px;
-    box-shadow: 0px 3px 5px 1px #ccc; 
-    
-
-}
-
-div.forthactivity img
-{
-    height: 88%;
-    width: 100%;
-    object-fit: cover;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;  
-}
-
-
-div.forthactivity
-{
-    background-color: white;
-    width: 220px;
-    height: 320px;
-    border-radius: 20px;
-    box-shadow: 0px 3px 5px 1px #ccc; 
-    margin-right:40px;
-    
-}
-
-div.fifthactivity img
-{
-    width:220px;
-    height:100px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px; 
-}
-
-
-
-div.fifthactivity
-{
-    background-color: white;
-    width:220px;
-    height: 150px;
-    border-radius: 20px;
-    margin-bottom: 35px;
-    box-shadow: 0px 3px 5px 1px #ccc; 
-}
-
-div.sixthactivity img
-{
-
-    width:220px;
-    height:90px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px; 
-}
-
-
-
-div.sixthactivity
-{
-    background-color: white;
-    width:220px;
-    height: 130px;
-    border-radius: 20px;
-    box-shadow: 0px 3px 5px 1px #ccc; 
-    margin-top: 3px;
-}
-
-div.activités
-p
-{
-font-weight: bold;
-font-size: 12px;
-padding-left: 15px;
-
-
-}
-
-div.images
-{
-    
-    
-    width: 190px;
-    margin-right: 20px;
-}
-
-div.images2
-{
-    
-    
-    margin-left: 2px;
-}
-
-div.activités
+div.activities-columns
 {
     display: flex;
     flex-direction: row;
-    justify-content:flex-start;
-    
-    
-    
+    justify-content: space-between;
+    align-items: stretch;
 }
+
+div.activity-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 23%;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 div.footer1
@@ -968,8 +840,8 @@ div.aside
 {
     
     height: 600px;
-    width: 100%;
     border-radius: 0%;
+    width:100%;
     
     
     
@@ -997,20 +869,21 @@ h3.populaires
 div.seventh
 {
     background-color: white;
-    width: 350px;
+    width: 330px;
     height: 160px;
+    
     
 }
 div.eighth
 {
     background-color: white;
-    width: 350px;
+    width: 330px;
     height: 160px;
 }
 div.neinth
 {
     background-color: white;
-    width: 350px;
+    width: 330px;
     height: 160px;
 }
 
@@ -1039,9 +912,10 @@ align-items: center;
 p.second
 
 {
-    margin-top: 150px;
+    
     font-size: 15px; 
     font-weight: 500;
+    margin-top: 150px;
     
     
 }
@@ -1321,7 +1195,6 @@ input
     
 }
 
-div.activités
 
 
 h3.activities
@@ -1390,7 +1263,9 @@ div.titres
 .big-title
 
 {
-   font-weight:bold;  
+   font-weight:bold;
+   width:75%;  
+   
    
 }
 
@@ -1406,7 +1281,6 @@ div.main
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    
 }
 
 
