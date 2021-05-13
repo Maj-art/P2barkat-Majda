@@ -287,13 +287,12 @@ h3
 }
 
 div.hebergement
-h4
+a.lien
 {
 
-    color: black;
-    text-decoration: none;
-    
-    
+    color:black;
+    text-decoration:none;
+    font-weight: bold; 
 }
 
 
@@ -776,8 +775,6 @@ body
 {
 width: auto;
 margin:auto;
-
-
 }
 
 div.container{
@@ -796,43 +793,63 @@ h4
 
 div.footer2
 {
-    margin-left: 40px;
+    margin-left: 45px;
 }
 
 div.footer3
 {
-   margin-left: 40px;
+   margin-left: 45px;
 }
 
 div.footer1
 {
-    margin-left: 40px;
+    margin-left: 45px;
+}
+div.firstpartcontainer
+{
+    width:80%;
+    margin:10%;
 }
 
 header.header
 {
     flex-wrap: wrap;
+    width:80%;
+    margin:10%;
+    
+}
+
+div.aside
+{
+    width: 80%;
     
 }
 nav.navheader
  a.active
  {
 border-top: 0;
-border-bottom: #0065FC solid 2px;
+border-bottom: #0065FC solid 4px;
 padding:1em;
 margin-left: -50px;
-font-stretch: wider;
-
 
  }
- header.header
- a.nav-link:hover
- 
+
+ nav.navheader
+ a.nav-link
  {
-    border-top: 0;
-    border-bottom: #0065FC solid 2px ;
+    border-top: 0px;
+    border-bottom: 4px #eee solid;
     padding:1em;
  }
+ nav.navheader
+ a.nav-link:hover
+ {
+    border-top: 0;
+    border-bottom: #0065FC solid 4px;
+    padding:1em;
+ }
+
+
  
  header.header
  .logo
@@ -843,41 +860,48 @@ font-stretch: wider;
  nav.navheader
  
  {
-     width:100%;
+     
+     width: 100%;
      order:1;
      
-     
-     
+            
  }
  
 
  header.header
- 
  a.register-link
  {
-    font-weight: 900;
+    font-weight: bold;
+    font-size: 15px;
+    
  }
 
- nav.navheader
- li
+ nav.navheader 
+ a
  {
-    width:50%;
+    font-weight: 900;
+    font-size: 15px;  
+    
  }
+
+ div.main
+ {
+     width:90%;
+     margin:5%;
+ }
+
  
-
-
-
-
-
-
+ 
 div.activities-columns
 {
     flex-direction: column;
 }
+
+div.containeractivities
 h3.activities
 {
-    margin-top: 380px;
-    font-weight: 900;
+    margin-top: 360px;
+    font-weight: bold;
 
     
 }
@@ -895,8 +919,7 @@ div.aside
     border-radius: 0%;
     width:100%;
     
-    
-    
+       
 }
 div.aside
 h3.populaires
@@ -913,8 +936,7 @@ height:130px;
 div.aside
 h3.populaires
 {
-    
-    
+    margin-top: 10px;
     font-size: large;
 }
 
@@ -922,7 +944,7 @@ div.seventh
 {
     background-color: white;
     height: 140px;
-    width:95%;
+    width:350px;
     
     
 }
@@ -930,13 +952,13 @@ div.eighth
 {
     background-color: white;
     height: 140px;
-    width:95%;
+    width:350px;
 }
 div.neinth
 {
     background-color: white;
     height: 140px;
-    width:95%;
+    width: 350px;;
 }
 
 p.second
@@ -971,12 +993,10 @@ a
 section.filtres
 {
 
-    
     flex-direction: row;
     flex-wrap: wrap;
     
-    
-    
+      
 }
 
 section.filtres
@@ -991,10 +1011,6 @@ a.familial
 
     margin-bottom:10px;
 }
-
-
-
-
 
 section.filtres
 i
@@ -1039,12 +1055,11 @@ div.hebergement
 h3
 {
     
-    margin-top: 15%;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 17px;
     
 }
-
-
-
 
 
 div.hebergement img
@@ -1065,7 +1080,7 @@ border-top-right-radius: 20px;
 div.firstimg
 {
     background-color: white;
-    width:330px;
+    width:350px;
     height:160px;
     
     
@@ -1074,7 +1089,7 @@ div.firstimg
 div.secondimg
 {
     background-color: white;
-    width: 330px;
+    width: 350px;
     height:160px;
     
 }
@@ -1083,7 +1098,7 @@ div.thirdimg
 
 {
     background-color: white;
-    width: 330px;
+    width: 350px;
     height:160px;
     
 }
@@ -1091,7 +1106,7 @@ div.thirdimg
 div.forthimg
 {
     background-color: white;
-    width: 330px;
+    width: 350px;
     height:160px;
     
     
@@ -1101,7 +1116,7 @@ div.fifthimg
 
 {
     background-color: white;
-    width: 330px;
+    width: 350px;
     height:160px;
     
 }
@@ -1109,7 +1124,7 @@ div.fifthimg
 div.sixthimg
 {
     background-color: white;
-    width: 330px;
+    width: 350px;
     height:160px;
     margin-top: 20px;
 
@@ -1125,6 +1140,12 @@ p
     width:100%;
        
     
+}
+
+div.containeractivities
+{
+    width:80%;
+    margin:10%;
 }
 
 
@@ -1152,11 +1173,15 @@ input
 {
     
     border-right: none;
-    margin-right: 0%;
     font-weight: 600;
-    width:70%;
+    width:75%;
     
     
+}
+
+section.search
+{
+    margin-top: 30px;
 }
 
 
@@ -1169,12 +1194,12 @@ h3.activities
     font-weight: 800;
 }
 
-div.activités img
+div.activities-colums img
 {
     width:100%;
     object-fit: cover;
     overflow: hidden;
-    height:130px;
+    height:120px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     
@@ -1182,46 +1207,46 @@ div.activités img
 div.firstactivity
 {
     background-color: white;
-    width: 330px;
-    height:180px;
+    width: 350px;
+    height:160px;
     margin-top: 15px;
 
 }
 div.secondactivity
 {
     background-color: white;
-    width: 330px;
-    height:180px; 
+    width: 350px;
+    height:160px; 
     margin-top: 15px;
 }
 div.thirdactivity
 {
     background-color: white;
-    width: 330px;
-    height:180px;
+    width: 350px;
+    height:160px;
     margin-top: 15px;
 }
 div.forthactivity
 {
     background-color: white;
-    width: 330px;
-    height:180px;
+    width: 350px;
+    height:160px;
     margin-top: 15px;
     
 }
 div.fifthactivity
 {
     background-color: white;
-    width: 330px;
-    height:180px;
+    width: 350px;
+    height:160px;
     margin-top: 15px;
 }
 
 div.sixthactivity
 {
     background-color: white;
-    width: 330px;
-    height:180px;
+    width: 350px;
+    height:160px;
     margin-top: 15px;
 }
 
@@ -1231,38 +1256,13 @@ div.titres
 {
    font-weight:bold;
    width:75%;  
-   
-   
-}
-
-div.containeractivities
-{
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
     
 }
-div.main
-{
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
 
 
-div.firstpartcontainer
-{
-width:80%;
-margin-left: 10%;
-margin-right: 10%;
-}
 
-header.header
-{
-    width:80%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
+
+
 
 
 }
