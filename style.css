@@ -7,9 +7,7 @@
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     margin:0;
-    padding:0;
-    
-   
+    padding:0; 
            
  }
 
@@ -19,7 +17,6 @@
     width: 1024px;
     
  }
-
  
  .wrapper
 
@@ -71,8 +68,6 @@ nav.navheader a.active
   color: #0065FC;
 }
 
-
-
 a.register-link
 {
     font-weight: bold;
@@ -94,9 +89,6 @@ ul
     
       
 }
-
-
-
 
 
 div.titres
@@ -556,7 +548,7 @@ i
 
 {
     color:black;
-    margin-left: 120px;
+    margin-left: 40%;
     font-weight:bolder;
 }
 
@@ -777,10 +769,10 @@ width: auto;
 margin:auto;
 }
 
-div.container{
+div.container
+{
     display:flex;
-    flex-direction: column; 
-    
+    flex-direction: column;  
     
 }
 div.container
@@ -805,19 +797,16 @@ div.footer1
 {
     margin-left: 45px;
 }
-div.firstpartcontainer
-{
-    width:80%;
-    margin:10%;
-}
+
 
 header.header
 {
     flex-wrap: wrap;
-    width:80%;
-    margin:10%;
-    
+    width:90%;
+    margin:auto;
+       
 }
+
 
 nav.navheader
  a.active
@@ -845,7 +834,6 @@ margin-left: -50px;
  }
 
 
- 
  header.header
  .logo
  {
@@ -853,13 +841,11 @@ margin-left: -50px;
  }
 
  nav.navheader
- 
- 
+
  {
      
-     width: 100%;
-     order:1;
-     
+    width: 100%;
+    order:1;    
             
  }
  
@@ -880,14 +866,7 @@ margin-left: -50px;
     
  }
 
- div.main
- {
-     width:90%;
-     margin:5%;
- }
 
- 
- 
 div.activities-columns
 {
     flex-direction: column;
@@ -906,6 +885,7 @@ div.main
 {
 flex-direction:column-reverse;
 
+
 }
 
 div.aside
@@ -913,18 +893,10 @@ div.aside
     
     height: 550px;
     border-radius: 0%;
-    width:100%;
-    
+    width:90%;
+          
+}
 
-    
-       
-}
-div.aside
-h3.populaires
-i
-{
-margin-left: 150px;
-}
 div.aside img
 {
 width:130px;
@@ -943,24 +915,31 @@ div.seventh
 {
     background-color: white;
     height: 140px;
-    width:90%;
-    
-    
-    
+    width:98%;
+    margin-left:1%;
+    margin-right:1%;
+      
+       
 }
 div.eighth
 {
     background-color: white;
     height: 140px;
-    width:90%;
+    width:98%;
+    margin-left:1%;
+    margin-right:1%;
+    
     
 }
 div.neinth
 {
     background-color: white;
     height: 140px;
-    width: 90%;
+    width:98%;
+    margin-left:1%;
+    margin-right:1%;
     
+  
 }
 
 p.second
@@ -997,6 +976,7 @@ section.filtres
 
     flex-direction: row;
     flex-wrap: wrap;
+    width:80%;
     
       
 }
@@ -1020,6 +1000,15 @@ i
     text-align: center;
 }
 
+div.firstpartcontainer
+{
+    width:90%;
+    margin:auto;
+}
+
+
+
+
 div.hebergement
 {    
     
@@ -1027,14 +1016,9 @@ div.hebergement
     flex-wrap: nowrap;
     flex-direction: column;
     margin-bottom: 20px;   
-    background-color:white;
-    width:100%;
-    padding-bottom: 320px;
-    
-    
-    
-    
-    
+    padding-bottom: 320px; 
+    background:none;  
+       
 }
 div.hebergement
 p.hebergement
@@ -1077,22 +1061,25 @@ padding-right: 1%;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
 
+}
 
+div.main
+{
+    width:90%;
+    margin:auto;
 }
 
 div.firstimg
 {
     background-color: white;
-    width:90%;
     height:160px;
-    
-    
+       
 }
 
 div.secondimg
 {
     background-color: white;
-    width: 90%;
+    width: 100%;
     height:160px;
     
 }
@@ -1101,7 +1088,7 @@ div.thirdimg
 
 {
     background-color: white;
-    width:90%;
+    width:100%;
     height:160px;
     
 }
@@ -1109,7 +1096,7 @@ div.thirdimg
 div.forthimg
 {
     background-color: white;
-    width: 90%;
+    width: 100%;
     height:160px;
     
     
@@ -1119,7 +1106,7 @@ div.fifthimg
 
 {
     background-color: white;
-    width: 90%;
+    width: 100%;
     height:160px;
     
 }
@@ -1127,7 +1114,7 @@ div.fifthimg
 div.sixthimg
 {
     background-color: white;
-    width: 90%;
+    width: 100%;
     height:160px;
     margin-top: 20px;
 
@@ -1145,11 +1132,7 @@ p
     
 }
 
-div.containeractivities
-{
-    width:80%;
-    margin:10%;
-}
+
 
 section.search
 a
@@ -1205,9 +1188,7 @@ div.activities-colums img
 }
 
 div.activity-column
-{
-    width:100%;
-}
+
 div.firstactivity
 {
     background-color: white;
@@ -1226,14 +1207,12 @@ div.secondactivity
 div.thirdactivity
 {
     background-color: white;
-    width: 100%;
     height:160px;
     margin-top: 15px;
 }
 div.forthactivity
 {
     background-color: white;
-    width: 100%;
     height:160px;
     margin-top: 15px;
     
@@ -1241,7 +1220,6 @@ div.forthactivity
 div.fifthactivity
 {
     background-color: white;
-    width:100%;
     height:160px;
     margin-top: 15px;
 }
