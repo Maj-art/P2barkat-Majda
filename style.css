@@ -819,11 +819,6 @@ header.header
     
 }
 
-div.aside
-{
-    width: 80%;
-    
-}
 nav.navheader
  a.active
  {
@@ -916,9 +911,11 @@ flex-direction:column-reverse;
 div.aside
 {
     
-    height: 600px;
+    height: 550px;
     border-radius: 0%;
     width:100%;
+    
+
     
        
 }
@@ -939,13 +936,15 @@ h3.populaires
 {
     margin-top: 10px;
     font-size: large;
+    margin-bottom: 5px;
 }
 
 div.seventh
 {
     background-color: white;
     height: 140px;
-    width:350px;
+    width:90%;
+    
     
     
 }
@@ -953,13 +952,15 @@ div.eighth
 {
     background-color: white;
     height: 140px;
-    width:350px;
+    width:90%;
+    
 }
 div.neinth
 {
     background-color: white;
     height: 140px;
-    width: 350px;;
+    width: 90%;
+    
 }
 
 p.second
@@ -1026,7 +1027,8 @@ div.hebergement
     flex-wrap: nowrap;
     flex-direction: column;
     margin-bottom: 20px;   
-    background-color: white;
+    background-color:white;
+    width:100%;
     padding-bottom: 320px;
     
     
@@ -1081,7 +1083,7 @@ border-top-right-radius: 20px;
 div.firstimg
 {
     background-color: white;
-    width:350px;
+    width:90%;
     height:160px;
     
     
@@ -1090,7 +1092,7 @@ div.firstimg
 div.secondimg
 {
     background-color: white;
-    width: 350px;
+    width: 90%;
     height:160px;
     
 }
@@ -1099,7 +1101,7 @@ div.thirdimg
 
 {
     background-color: white;
-    width: 350px;
+    width:90%;
     height:160px;
     
 }
@@ -1107,7 +1109,7 @@ div.thirdimg
 div.forthimg
 {
     background-color: white;
-    width: 350px;
+    width: 90%;
     height:160px;
     
     
@@ -1117,7 +1119,7 @@ div.fifthimg
 
 {
     background-color: white;
-    width: 350px;
+    width: 90%;
     height:160px;
     
 }
@@ -1125,7 +1127,7 @@ div.fifthimg
 div.sixthimg
 {
     background-color: white;
-    width: 350px;
+    width: 90%;
     height:160px;
     margin-top: 20px;
 
@@ -1148,7 +1150,6 @@ div.containeractivities
     width:80%;
     margin:10%;
 }
-
 
 section.search
 a
@@ -1186,9 +1187,6 @@ section.search
 }
 
 
-
-
-
 h3.activities
 {
     
@@ -1205,10 +1203,15 @@ div.activities-colums img
     border-top-right-radius: 20px;
     
 }
+
+div.activity-column
+{
+    width:100%;
+}
 div.firstactivity
 {
     background-color: white;
-    width: 350px;
+    width: 100%;
     height:160px;
     margin-top: 15px;
 
@@ -1216,21 +1219,21 @@ div.firstactivity
 div.secondactivity
 {
     background-color: white;
-    width: 350px;
+    width: 100%;
     height:160px; 
     margin-top: 15px;
 }
 div.thirdactivity
 {
     background-color: white;
-    width: 350px;
+    width: 100%;
     height:160px;
     margin-top: 15px;
 }
 div.forthactivity
 {
     background-color: white;
-    width: 350px;
+    width: 100%;
     height:160px;
     margin-top: 15px;
     
@@ -1238,7 +1241,7 @@ div.forthactivity
 div.fifthactivity
 {
     background-color: white;
-    width: 350px;
+    width:100%;
     height:160px;
     margin-top: 15px;
 }
@@ -1246,7 +1249,7 @@ div.fifthactivity
 div.sixthactivity
 {
     background-color: white;
-    width: 350px;
+    width: 100%;
     height:160px;
     margin-top: 15px;
 }
