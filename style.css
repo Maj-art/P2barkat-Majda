@@ -556,7 +556,7 @@ i
 
 {
     color:black;
-    margin-left: 80px;
+    margin-left: 120px;
     font-weight:bolder;
 }
 
@@ -565,8 +565,8 @@ div.seventh
     display: flex;
     flex-direction: row;
     background-color: white;
-    width: 300px;
-    height:110px;
+    width: 280px;
+    height:115px;
     margin-left: 5px;
     border-radius: 20px;
     margin-bottom: 10px;
@@ -580,8 +580,8 @@ div.eighth
     display: flex;
     flex-direction:row;
     background-color: white;
-    width: 300px;
-    height:110px;
+    width: 280px;
+    height:115px;
     margin-left: 5px;
     border-radius: 20px;
     margin-bottom: 10px;
@@ -594,8 +594,8 @@ div.neinth
     display: flex;
     flex-direction: row;
     background-color: white;
-    width: 300px;
-    height:110px;
+    width: 280px;
+    height:115px;
     margin-left: 5px;
     border-radius: 20px;
     margin-bottom: 20px;
@@ -858,6 +858,7 @@ margin-left: -50px;
  }
 
  nav.navheader
+ 
  
  {
      
