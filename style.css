@@ -774,6 +774,7 @@ div.container
 {
     display:flex;
     flex-direction: column;  
+    width:100%;
     
 }
 div.container
@@ -803,9 +804,13 @@ div.footer1
 header.header
 {
     
-    width:90%;
+    width:100%;
     margin:auto;
     flex-wrap: wrap;     
+}
+
+.logo {
+    padding-left: 2em;
 }
 
 
@@ -816,7 +821,13 @@ a.nav-link
     text-decoration: none;
     padding: 1em;
     border-bottom: 3px whitesmoke solid ;
-    
+    border-top: none;
+    display: inline-block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;  
+    box-sizing: border-box;   
 }
 
 nav.navheader a.nav-link:hover,
@@ -824,30 +835,29 @@ nav.navheader a.active
 {
   border-bottom: 3px #0065FC solid;
   color: #0065FC;
-  border-top: none; 
-  
+  border-top: none;
 }
 
-nav.navheader 
-a
-{
-    
-    font-weight: bold;
-    font-size: 15px;    
-                               
- }
- nav.navheader {
+nav.navheader {
     width: 100%;
-    order:1;   
+    order:1;
+}
+
+nav.navheader ul {
+    width: 100%;
+    padding: 0;
+}
+nav.navheader ul li {
+    width: 50%;
 }
 
 div.firstpartcontainer
 {
-    width:90%;
+    width:100%;
     width:auto;
+    padding: 0.5em 2em;
 }
 
- 
 
 div.activities-columns
 {
@@ -989,8 +999,9 @@ i
 
 div.firstpartcontainer
 {
-    width:90%;
+    width:100%;
     margin:auto;
+    padding: 0.5em 2em;
 }
 
 
